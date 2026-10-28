@@ -62,17 +62,19 @@
   "shards": [
    "model_q4_shard_00.bin",
    "model_q4_shard_01.bin",
-   "model_q4_shard_02.bin"
+   "model_q4_shard_02.bin",
+   "model_q4_shard_03.bin"
   ],
   "sizes": {
    "model_q4_shard_00.bin": 898974720,
-   "model_q4_shard_01.bin": 735805440,
-   "model_q4_shard_02.bin": 590848000
+   "model_q4_shard_01.bin": 367165440,
+   "model_q4_shard_02.bin": 589824000,
+   "model_q4_shard_03.bin": 590848000
   },
   "dtype": "float32",
   "files": {
    "model_q4.onnx": {
-    "size": 1419020,
+    "size": 3089127,
     "chunks": [
      "model_q4.onnx"
     ]
@@ -93,20 +95,16 @@
     ]
    },
    "model_q4_shard_01.bin": {
-    "size": 735805440,
+    "size": 367165440,
     "chunks": [
      "model_q4_shard_01.bin.000",
      "model_q4_shard_01.bin.001",
      "model_q4_shard_01.bin.002",
-     "model_q4_shard_01.bin.003",
-     "model_q4_shard_01.bin.004",
-     "model_q4_shard_01.bin.005",
-     "model_q4_shard_01.bin.006",
-     "model_q4_shard_01.bin.007"
+     "model_q4_shard_01.bin.003"
     ]
    },
    "model_q4_shard_02.bin": {
-    "size": 590848000,
+    "size": 589824000,
     "chunks": [
      "model_q4_shard_02.bin.000",
      "model_q4_shard_02.bin.001",
@@ -114,6 +112,17 @@
      "model_q4_shard_02.bin.003",
      "model_q4_shard_02.bin.004",
      "model_q4_shard_02.bin.005"
+    ]
+   },
+   "model_q4_shard_03.bin": {
+    "size": 590848000,
+    "chunks": [
+     "model_q4_shard_03.bin.000",
+     "model_q4_shard_03.bin.001",
+     "model_q4_shard_03.bin.002",
+     "model_q4_shard_03.bin.003",
+     "model_q4_shard_03.bin.004",
+     "model_q4_shard_03.bin.005"
     ]
    }
   }
@@ -139,7 +148,7 @@
    ]
   },
   "model_q4.onnx": {
-   "size": 1419020,
+   "size": 3089127,
    "chunks": [
     "model_q4.onnx"
    ]
@@ -160,20 +169,16 @@
    ]
   },
   "model_q4_shard_01.bin": {
-   "size": 735805440,
+   "size": 367165440,
    "chunks": [
     "model_q4_shard_01.bin.000",
     "model_q4_shard_01.bin.001",
     "model_q4_shard_01.bin.002",
-    "model_q4_shard_01.bin.003",
-    "model_q4_shard_01.bin.004",
-    "model_q4_shard_01.bin.005",
-    "model_q4_shard_01.bin.006",
-    "model_q4_shard_01.bin.007"
+    "model_q4_shard_01.bin.003"
    ]
   },
   "model_q4_shard_02.bin": {
-   "size": 590848000,
+   "size": 589824000,
    "chunks": [
     "model_q4_shard_02.bin.000",
     "model_q4_shard_02.bin.001",
@@ -181,6 +186,17 @@
     "model_q4_shard_02.bin.003",
     "model_q4_shard_02.bin.004",
     "model_q4_shard_02.bin.005"
+   ]
+  },
+  "model_q4_shard_03.bin": {
+   "size": 590848000,
+   "chunks": [
+    "model_q4_shard_03.bin.000",
+    "model_q4_shard_03.bin.001",
+    "model_q4_shard_03.bin.002",
+    "model_q4_shard_03.bin.003",
+    "model_q4_shard_03.bin.004",
+    "model_q4_shard_03.bin.005"
    ]
   },
   "model_q4f16.onnx": {
