@@ -1,0 +1,247 @@
+{
+ "webgpu": {
+  "model": "model_q4f16.onnx",
+  "shards": [
+   "model_q4f16_shard_00.bin",
+   "model_q4f16_shard_01.bin",
+   "model_q4f16_shard_02.bin"
+  ],
+  "sizes": {
+   "model_q4f16_shard_00.bin": 896279040,
+   "model_q4f16_shard_01.bin": 574636032,
+   "model_q4f16_shard_02.bin": 590336000
+  },
+  "dtype": "float16",
+  "files": {
+   "model_q4f16.onnx": {
+    "size": 1419050,
+    "chunks": [
+     "model_q4f16.onnx"
+    ]
+   },
+   "model_q4f16_shard_00.bin": {
+    "size": 896279040,
+    "chunks": [
+     "model_q4f16_shard_00.bin.000",
+     "model_q4f16_shard_00.bin.001",
+     "model_q4f16_shard_00.bin.002",
+     "model_q4f16_shard_00.bin.003",
+     "model_q4f16_shard_00.bin.004",
+     "model_q4f16_shard_00.bin.005",
+     "model_q4f16_shard_00.bin.006",
+     "model_q4f16_shard_00.bin.007",
+     "model_q4f16_shard_00.bin.008"
+    ]
+   },
+   "model_q4f16_shard_01.bin": {
+    "size": 574636032,
+    "chunks": [
+     "model_q4f16_shard_01.bin.000",
+     "model_q4f16_shard_01.bin.001",
+     "model_q4f16_shard_01.bin.002",
+     "model_q4f16_shard_01.bin.003",
+     "model_q4f16_shard_01.bin.004",
+     "model_q4f16_shard_01.bin.005"
+    ]
+   },
+   "model_q4f16_shard_02.bin": {
+    "size": 590336000,
+    "chunks": [
+     "model_q4f16_shard_02.bin.000",
+     "model_q4f16_shard_02.bin.001",
+     "model_q4f16_shard_02.bin.002",
+     "model_q4f16_shard_02.bin.003",
+     "model_q4f16_shard_02.bin.004",
+     "model_q4f16_shard_02.bin.005"
+    ]
+   }
+  }
+ },
+ "wasm": {
+  "model": "model_q4.onnx",
+  "shards": [
+   "model_q4_shard_00.bin",
+   "model_q4_shard_01.bin",
+   "model_q4_shard_02.bin"
+  ],
+  "sizes": {
+   "model_q4_shard_00.bin": 898974720,
+   "model_q4_shard_01.bin": 735805440,
+   "model_q4_shard_02.bin": 590848000
+  },
+  "dtype": "float32",
+  "files": {
+   "model_q4.onnx": {
+    "size": 1419020,
+    "chunks": [
+     "model_q4.onnx"
+    ]
+   },
+   "model_q4_shard_00.bin": {
+    "size": 898974720,
+    "chunks": [
+     "model_q4_shard_00.bin.000",
+     "model_q4_shard_00.bin.001",
+     "model_q4_shard_00.bin.002",
+     "model_q4_shard_00.bin.003",
+     "model_q4_shard_00.bin.004",
+     "model_q4_shard_00.bin.005",
+     "model_q4_shard_00.bin.006",
+     "model_q4_shard_00.bin.007",
+     "model_q4_shard_00.bin.008",
+     "model_q4_shard_00.bin.009"
+    ]
+   },
+   "model_q4_shard_01.bin": {
+    "size": 735805440,
+    "chunks": [
+     "model_q4_shard_01.bin.000",
+     "model_q4_shard_01.bin.001",
+     "model_q4_shard_01.bin.002",
+     "model_q4_shard_01.bin.003",
+     "model_q4_shard_01.bin.004",
+     "model_q4_shard_01.bin.005",
+     "model_q4_shard_01.bin.006",
+     "model_q4_shard_01.bin.007"
+    ]
+   },
+   "model_q4_shard_02.bin": {
+    "size": 590848000,
+    "chunks": [
+     "model_q4_shard_02.bin.000",
+     "model_q4_shard_02.bin.001",
+     "model_q4_shard_02.bin.002",
+     "model_q4_shard_02.bin.003",
+     "model_q4_shard_02.bin.004",
+     "model_q4_shard_02.bin.005"
+    ]
+   }
+  }
+ },
+ "chunk_bytes": 99614720,
+ "files": {
+  "chat_template.jinja": {
+   "size": 591,
+   "chunks": [
+    "chat_template.jinja"
+   ]
+  },
+  "config.json": {
+   "size": 1471,
+   "chunks": [
+    "config.json"
+   ]
+  },
+  "generation_config.json": {
+   "size": 187,
+   "chunks": [
+    "generation_config.json"
+   ]
+  },
+  "model_q4.onnx": {
+   "size": 1419020,
+   "chunks": [
+    "model_q4.onnx"
+   ]
+  },
+  "model_q4_shard_00.bin": {
+   "size": 898974720,
+   "chunks": [
+    "model_q4_shard_00.bin.000",
+    "model_q4_shard_00.bin.001",
+    "model_q4_shard_00.bin.002",
+    "model_q4_shard_00.bin.003",
+    "model_q4_shard_00.bin.004",
+    "model_q4_shard_00.bin.005",
+    "model_q4_shard_00.bin.006",
+    "model_q4_shard_00.bin.007",
+    "model_q4_shard_00.bin.008",
+    "model_q4_shard_00.bin.009"
+   ]
+  },
+  "model_q4_shard_01.bin": {
+   "size": 735805440,
+   "chunks": [
+    "model_q4_shard_01.bin.000",
+    "model_q4_shard_01.bin.001",
+    "model_q4_shard_01.bin.002",
+    "model_q4_shard_01.bin.003",
+    "model_q4_shard_01.bin.004",
+    "model_q4_shard_01.bin.005",
+    "model_q4_shard_01.bin.006",
+    "model_q4_shard_01.bin.007"
+   ]
+  },
+  "model_q4_shard_02.bin": {
+   "size": 590848000,
+   "chunks": [
+    "model_q4_shard_02.bin.000",
+    "model_q4_shard_02.bin.001",
+    "model_q4_shard_02.bin.002",
+    "model_q4_shard_02.bin.003",
+    "model_q4_shard_02.bin.004",
+    "model_q4_shard_02.bin.005"
+   ]
+  },
+  "model_q4f16.onnx": {
+   "size": 1419050,
+   "chunks": [
+    "model_q4f16.onnx"
+   ]
+  },
+  "model_q4f16_shard_00.bin": {
+   "size": 896279040,
+   "chunks": [
+    "model_q4f16_shard_00.bin.000",
+    "model_q4f16_shard_00.bin.001",
+    "model_q4f16_shard_00.bin.002",
+    "model_q4f16_shard_00.bin.003",
+    "model_q4f16_shard_00.bin.004",
+    "model_q4f16_shard_00.bin.005",
+    "model_q4f16_shard_00.bin.006",
+    "model_q4f16_shard_00.bin.007",
+    "model_q4f16_shard_00.bin.008"
+   ]
+  },
+  "model_q4f16_shard_01.bin": {
+   "size": 574636032,
+   "chunks": [
+    "model_q4f16_shard_01.bin.000",
+    "model_q4f16_shard_01.bin.001",
+    "model_q4f16_shard_01.bin.002",
+    "model_q4f16_shard_01.bin.003",
+    "model_q4f16_shard_01.bin.004",
+    "model_q4f16_shard_01.bin.005"
+   ]
+  },
+  "model_q4f16_shard_02.bin": {
+   "size": 590336000,
+   "chunks": [
+    "model_q4f16_shard_02.bin.000",
+    "model_q4f16_shard_02.bin.001",
+    "model_q4f16_shard_02.bin.002",
+    "model_q4f16_shard_02.bin.003",
+    "model_q4f16_shard_02.bin.004",
+    "model_q4f16_shard_02.bin.005"
+   ]
+  },
+  "special_tokens_map.json": {
+   "size": 636,
+   "chunks": [
+    "special_tokens_map.json"
+   ]
+  },
+  "tokenizer.json": {
+   "size": 34362873,
+   "chunks": [
+    "tokenizer.json"
+   ]
+  },
+  "tokenizer_config.json": {
+   "size": 46996,
+   "chunks": [
+    "tokenizer_config.json"
+   ]
+  }
+ }
+}
