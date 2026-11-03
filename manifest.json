@@ -14,7 +14,7 @@
   "dtype": "float16",
   "files": {
    "model_q4f16.onnx": {
-    "size": 1419050,
+    "size": 1421792,
     "chunks": [
      "model_q4f16.onnx"
     ]
@@ -74,7 +74,7 @@
   "dtype": "float32",
   "files": {
    "model_q4.onnx": {
-    "size": 3089127,
+    "size": 3091869,
     "chunks": [
      "model_q4.onnx"
     ]
@@ -148,7 +148,7 @@
    ]
   },
   "model_q4.onnx": {
-   "size": 3089127,
+   "size": 3091869,
    "chunks": [
     "model_q4.onnx"
    ]
@@ -200,7 +200,7 @@
    ]
   },
   "model_q4f16.onnx": {
-   "size": 1419050,
+   "size": 1421792,
    "chunks": [
     "model_q4f16.onnx"
    ]
@@ -259,5 +259,62 @@
     "tokenizer_config.json"
    ]
   }
+ },
+ "hashes": {
+  "chat_template.jinja": "ecd6ae513fe103f0eb62e8ab5bfa8d0fe45c1074fa398b089c93a7e70c15cfd6",
+  "config.json": "9c1e2c38d1696c4fc7c8d3724fea82e6c9ec733e709b07b83c0e4473671d53b7",
+  "generation_config.json": "4b1093b97e367eac3cfdf799c6c647678c89091612089eb468ec111bef958d8e",
+  "model_q4.onnx": "2b52d425d0c887081813b9fc977205dd9792719c676d38ef495a8e0b0a9bdcb2",
+  "model_q4_shard_00.bin.000": "16c07e6fd7f99d233b7565fd270c6a49ba4a4681d3ac905d8cc89f3f1ba605ce",
+  "model_q4_shard_00.bin.001": "d9e6a35f96638b903411612251364acbf4668ca43def70e4c287a0f27f5cfc89",
+  "model_q4_shard_00.bin.002": "42600f8415000e14fec51a5644af5ef4096ff29d74f1af135e399cc7728fe327",
+  "model_q4_shard_00.bin.003": "306d9bb578fd1d3d6917d7f8340077178e6f21a5427569f6ff6925cc4ba79572",
+  "model_q4_shard_00.bin.004": "9d5671cd870943b3fad238537de88cb77d26f37e1e6a73dc42a77bab3c853d45",
+  "model_q4_shard_00.bin.005": "b5902513edef6951b7fb5a6085f7dac293e0e9107309326d1b148b5b670128e7",
+  "model_q4_shard_00.bin.006": "a7a86a7fa0061558348372c85a63dd239d56eb3e1b7e8180c19c2d23e57ed00e",
+  "model_q4_shard_00.bin.007": "3d4d9210416561cb4db77a81b7da07c07a1669913bc10ee0319e00a1a9d07fda",
+  "model_q4_shard_00.bin.008": "ccc0969f50a73dd6f883fcfe307de81997237727971dee9ca14e623cfd6baaf5",
+  "model_q4_shard_00.bin.009": "b8d9fe6e839864552d5ccd5e64f920e2e4514e85c97c8fa414a3cc3ce125b3e7",
+  "model_q4_shard_01.bin.000": "f430974e47906dc5c2ccd44cfc0547823116955ddf3f2bace39385ade72b74b0",
+  "model_q4_shard_01.bin.001": "dbb87c4e484a3b30f2a155125b6b5f02540d178013a9da60bf8263df431ef5f4",
+  "model_q4_shard_01.bin.002": "785cad0d5494894942e707797179616b871dc599d9d1c497fbf2fb9932f1a385",
+  "model_q4_shard_01.bin.003": "e5fe3eaba29751c8279b1caa9c527c006514da89b7d552acb5b29a48897cac31",
+  "model_q4_shard_02.bin.000": "018a6724e0901ba8da9bea9647a0680b6e2b15360172324ad2a83df62ed42686",
+  "model_q4_shard_02.bin.001": "e062b88676a518c00760c05040ff97538aa8fa249bf3a0cfec20b32d41edadeb",
+  "model_q4_shard_02.bin.002": "4d931df9e387f6c059c884178a68f3eb250b447e710dd4e6d1e372db9f582008",
+  "model_q4_shard_02.bin.003": "ef6a8e7b42819114073d57cabb0e848ef1d1ca340d4ad045bee17f3fec0ca9a2",
+  "model_q4_shard_02.bin.004": "c920759cf315173fb6b509c874547be10488dfcd6b556dd827e0711d6e1a7d8d",
+  "model_q4_shard_02.bin.005": "645955f230a9315d4a91e8bad59452523b15ca712e89b1953bd8d558b20d6426",
+  "model_q4_shard_03.bin.000": "88c722f7ab0a17b1d73924492aaec5a7f344741faf0aad816e7cbce8439e4994",
+  "model_q4_shard_03.bin.001": "2cbdf9f3004029c7678d75fd8a97b3f4cc603d02cbb5d3d7e6d52eee1adbcf99",
+  "model_q4_shard_03.bin.002": "2805f9bf5befdbe5e5948b47e400e4f68db8b87f38f589f2dbdcbb1919a26894",
+  "model_q4_shard_03.bin.003": "5ebcc8e119872a3ad8378e29fc6ca5ff371a0081b39df085c5067b1b8e12d7d6",
+  "model_q4_shard_03.bin.004": "efbacb957c04314439338f18baadc727a407bc5ba48267eb2591d53bb44d49b0",
+  "model_q4_shard_03.bin.005": "aa6a53aa37b55dba39ad26d7a9f974d94235440222dd732aee0a33ed9efbd6b1",
+  "model_q4f16.onnx": "de95502a901fe3c3782ef6789246812fea8460a027c56d49a7d8275218173357",
+  "model_q4f16_shard_00.bin.000": "8bf66c414524d0198c083b8f4aaf2eebd4eb0d331c9ab5d4e3d1ad19e7256cdd",
+  "model_q4f16_shard_00.bin.001": "a7b52efd641a9d6bdd8a82a64fc84e022c8f35ec2a5e2e38495ed7b20f521244",
+  "model_q4f16_shard_00.bin.002": "3cb94ac826e177d5bbed67fafb94a973c36987b12bc94765c67d8699740af133",
+  "model_q4f16_shard_00.bin.003": "80f8bef8855021631ea8716e082eae6d2814c0680045735423443114068bc4a3",
+  "model_q4f16_shard_00.bin.004": "63803ad944da218638681f68942081c1e305d841b08d92e29aab127699d134a5",
+  "model_q4f16_shard_00.bin.005": "7b1d7509dc35235914f149a5d97bf6bac9f235bae718cccc86292dc45b1d1f29",
+  "model_q4f16_shard_00.bin.006": "b7beec077e367a0f23023049df044e7607f13ed0bfe774193c491dd66b6a2618",
+  "model_q4f16_shard_00.bin.007": "5e282b471b9e036b28d5bf5fb7ef27720dcdaf35fc1c0d22ae98495078f9ac59",
+  "model_q4f16_shard_00.bin.008": "164c242027f52de288279d684be68f0ff73502cc92f5394bde19b80d5e329848",
+  "model_q4f16_shard_01.bin.000": "c92675d7a4adbe195cdcf1daff33fb9fbe21f1752848d76c3e1b793092ad47bb",
+  "model_q4f16_shard_01.bin.001": "5a82dfe275a0c4bd6a9026f2310f15e5818170e127d78db53bd18415afb0c081",
+  "model_q4f16_shard_01.bin.002": "b85bd7e7feab87004bfe61bb006012da5b70abf2c1c0cc6b864e55606bb6cc37",
+  "model_q4f16_shard_01.bin.003": "da75c975f2d1fca33c758d449ee5e20bc523bbcf0e4f7e98ef543ec972d04ed1",
+  "model_q4f16_shard_01.bin.004": "c06b3900c38e842277f57c23150a4d61572671d0fb975855afbb561483b564e3",
+  "model_q4f16_shard_01.bin.005": "b5accf6f85879d2d3a82b6a25568e780e042fd216e27bda4b5c343ed95a17838",
+  "model_q4f16_shard_02.bin.000": "88c722f7ab0a17b1d73924492aaec5a7f344741faf0aad816e7cbce8439e4994",
+  "model_q4f16_shard_02.bin.001": "2cbdf9f3004029c7678d75fd8a97b3f4cc603d02cbb5d3d7e6d52eee1adbcf99",
+  "model_q4f16_shard_02.bin.002": "2805f9bf5befdbe5e5948b47e400e4f68db8b87f38f589f2dbdcbb1919a26894",
+  "model_q4f16_shard_02.bin.003": "5ebcc8e119872a3ad8378e29fc6ca5ff371a0081b39df085c5067b1b8e12d7d6",
+  "model_q4f16_shard_02.bin.004": "efbacb957c04314439338f18baadc727a407bc5ba48267eb2591d53bb44d49b0",
+  "model_q4f16_shard_02.bin.005": "33db76bf9c599aba90237d222f2820970a86f81c131dd86935ca58a194792b3e",
+  "special_tokens_map.json": "baec30ea10906f16adb8c18af7a34023002c1746542612b8b41c9f09e1351351",
+  "tokenizer.json": "5f7eee611703c5ce5d1eee32d9cdcfe465647b8aff0c1dfb3bed7ad7dbb05060",
+  "tokenizer_config.json": "cb32b7929c62608d46572e813112b3ad8a841fb98fdd6a4da8559e368a951c89"
  }
 }
