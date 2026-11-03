@@ -14,7 +14,7 @@
   "dtype": "float16",
   "files": {
    "model_q4f16.onnx": {
-    "size": 1421792,
+    "size": 1458024,
     "chunks": [
      "model_q4f16.onnx"
     ]
@@ -200,7 +200,7 @@
    ]
   },
   "model_q4f16.onnx": {
-   "size": 1421792,
+   "size": 1458024,
    "chunks": [
     "model_q4f16.onnx"
    ]
@@ -291,7 +291,7 @@
   "model_q4_shard_03.bin.003": "5ebcc8e119872a3ad8378e29fc6ca5ff371a0081b39df085c5067b1b8e12d7d6",
   "model_q4_shard_03.bin.004": "efbacb957c04314439338f18baadc727a407bc5ba48267eb2591d53bb44d49b0",
   "model_q4_shard_03.bin.005": "aa6a53aa37b55dba39ad26d7a9f974d94235440222dd732aee0a33ed9efbd6b1",
-  "model_q4f16.onnx": "de95502a901fe3c3782ef6789246812fea8460a027c56d49a7d8275218173357",
+  "model_q4f16.onnx": "24db0dd6b047d7e13f8db13a7ae94bc84886e4b0ca691130e5796607c00ac9eb",
   "model_q4f16_shard_00.bin.000": "8bf66c414524d0198c083b8f4aaf2eebd4eb0d331c9ab5d4e3d1ad19e7256cdd",
   "model_q4f16_shard_00.bin.001": "a7b52efd641a9d6bdd8a82a64fc84e022c8f35ec2a5e2e38495ed7b20f521244",
   "model_q4f16_shard_00.bin.002": "3cb94ac826e177d5bbed67fafb94a973c36987b12bc94765c67d8699740af133",
